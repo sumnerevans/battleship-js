@@ -1,12 +1,13 @@
 /* DISCLAIMER: THIS FILE IS DISTRIBUTED WITHOUT WARANTY OF ANY KIND EXPRESS OR IMPLIED. ANY DAMAGE TO ANYTHING OR ANYONE
-* IS NOT THE FAULT OF SUMMATION TECH, INC. OR ANY OF THE EMPLOYEES THEREOF.
+* IS NOT THE FAULT OF SUMMATIONTECH, INC. OR ANY OF THE EMPLOYEES THEREOF.
 *
 * ========== ABOUT THIS FILE ==========
 * File Name: loader.js
 * Author: Sumner Evans
 * Company: SummationTech, Inc.
 * Website: www.summationtech.com
-* Last Modified: 01-26-2014 20:02 MST (Mountain Standard Time)
+* Last Modified: 02-05-2014 15:49 MST (Mountain Standard Time)
+* Version: 1.0.0.0
 *
 * ==== PURPOSE ====
 * This file loads all of your JavaScript and CSS files in the head of your HTML file.
