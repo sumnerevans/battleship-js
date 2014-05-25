@@ -1,5 +1,5 @@
 BJ.PlaceShipsPanel = {
-    draw: function(){
-        
+    draw: function () {
+
     }
 };
