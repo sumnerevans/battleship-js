@@ -1,3 +1,26 @@
+/* stjs.css
+ * Styles for STJS library
+ */
+
+@import url('lib/css/normalize.css');
+
+/* Fonts */
+@font-face {
+    font-family: 'Open Sans';
+    src: local('☺'), url('OpenSans-Regular.eot?') format('embedded-opentype'), url('OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: local('☺'), url('OpenSans-Light.eot?') format('embedded-opentype'), url('OpenSans-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: local('☺'), url('OpenSans-Semibold.eot') format('embedded-opentype'), url('OpenSans-Semibold.woff') format('woff');
+}
+
+
 /* Loading Indicator */
 
 div.loading-indicator {
@@ -23,6 +46,7 @@ div.loading-indicator span {
     margin-left: 5px;
 }
 
+/* Mask */
 div.mask {
     position: absolute;
     top: 0;
