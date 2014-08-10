@@ -1,3 +1,11 @@
-$(document).ready(function () {
-    s.UI.setLoading(true, s.getBody());
+// Global Battleship variable
+s.app('bj', {
+    files: [
+        'battleship/ui/PlaceShipsPanel',
+        'battleship/ui/Welcome'
+    ],
+
+    onReady: function () {
+        bj.ui.Welcome.load();
+    }
 });

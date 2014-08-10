@@ -2,22 +2,22 @@
  * Styles for STJS library
  */
 
-@import url('lib/css/normalize.css');
+@import url('normalize.css');
 
 /* Fonts */
 @font-face {
     font-family: 'Open Sans';
-    src: local('☺'), url('OpenSans-Regular.eot?') format('embedded-opentype'), url('OpenSans-Regular.woff') format('woff');
+    src: local('☺'), url('../fonts/OpenSans-Regular.eot?') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Open Sans Light';
-    src: local('☺'), url('OpenSans-Light.eot?') format('embedded-opentype'), url('OpenSans-Light.woff') format('woff');
+    src: local('☺'), url('../fonts/OpenSans-Light.eot?') format('embedded-opentype'), url('../fonts/OpenSans-Light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Open Sans Semibold';
-    src: local('☺'), url('OpenSans-Semibold.eot') format('embedded-opentype'), url('OpenSans-Semibold.woff') format('woff');
+    src: local('☺'), url('../fonts/OpenSans-Semibold.eot') format('embedded-opentype'), url('../fonts/OpenSans-Semibold.woff') format('woff');
 }
 
 
@@ -27,11 +27,11 @@ div.loading-indicator {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 110px;
+    width: 115px;
     height: 40px;
     line-height: 40px;
     border: 1px solid #8FD8D8;
-    margin: -20px 0 0 -55px;
+    margin: -20px 0 0 -57px;
     font-size: 20px;
     padding: 0 10px;
     color: gray;

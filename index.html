@@ -25,8 +25,34 @@
         <!-- ********** SCRIPTS ********** -->
         <script src="lib/js/st.js"></script>
         <script src="application.js"></script>
+        <script>
+            function showLoadIndicator() {
+                var numberOfDots = 0,
+                    interval = setInterval(function () {
+                        var loadingText = $('#initial-load-indicator').find('span')[0],
+                            text = "Loading";
+            
+                        if (!loadingText) {
+                            clearInterval(interval);
+                            return;
+                        }
+                        for (var i = 0; i < numberOfDots; i++) {
+                            text += ".";
+                        }
+                        loadingText.innerHTML = text;
+                        numberOfDots = numberOfDots == 3 ? 0 : numberOfDots += 1;
+                    }, 1000);
+            };
+        </script>
     </head>
 
-    <body></body>
+    <body onload="showLoadIndicator();">
+        <div class="mask">
+            <div class="loading-indicator" id="initial-load-indicator">
+                <img src="lib/images/loading-indicator.gif" alt="Loading" width="16" height="16" />
+                <span>Loading</span>
+            </div>
+        </div>
+    </body>
 
 </html>
