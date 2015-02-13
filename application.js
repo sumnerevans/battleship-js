@@ -1,11 +1,11 @@
-// Global Battleship variable
+// Define the Battleship JS application
 s.app('bj', {
     files: [
         'battleship/ui/PlaceShipsPanel',
         'battleship/ui/Welcome'
     ],
 
-    onReady: function () {
+    onReady: function() {
         bj.ui.Welcome.load();
     }
 });

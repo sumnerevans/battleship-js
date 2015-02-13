@@ -3,24 +3,20 @@
  */
 
 @import url('normalize.css');
-
 /* Fonts */
+
 @font-face {
     font-family: 'Open Sans';
     src: local('☺'), url('../fonts/OpenSans-Regular.eot?') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff') format('woff');
 }
-
 @font-face {
     font-family: 'Open Sans Light';
     src: local('☺'), url('../fonts/OpenSans-Light.eot?') format('embedded-opentype'), url('../fonts/OpenSans-Light.woff') format('woff');
 }
-
 @font-face {
     font-family: 'Open Sans Semibold';
     src: local('☺'), url('../fonts/OpenSans-Semibold.eot') format('embedded-opentype'), url('../fonts/OpenSans-Semibold.woff') format('woff');
 }
-
-
 /* Loading Indicator */
 
 div.loading-indicator {
@@ -37,16 +33,14 @@ div.loading-indicator {
     color: gray;
     background-color: white;
 }
-
 div.loading-indicator img {
     margin-top: 12px;
 }
-
 div.loading-indicator span {
     margin-left: 5px;
 }
-
 /* Mask */
+
 div.mask {
     position: absolute;
     top: 0;
@@ -55,7 +49,6 @@ div.mask {
     height: 100%;
     background-color: rgba(256, 256, 256, .3);
 }
-
 .masked {
     position: relative;
 }
