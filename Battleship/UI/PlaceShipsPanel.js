@@ -1,4 +1,4 @@
-s.define('bj.ui.PlaceShipsPanel', {
+s.define('Battleship.ui.PlaceShipsPanel', {
     extend: 'panel',
     stype: 'placeshipspanel'
 });

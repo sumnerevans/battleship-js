@@ -1,11 +1,13 @@
 // Define the Battleship JS application
-s.app('bj', {
+s.app('Battleship', {
     files: [
         'battleship/ui/PlaceShipsPanel',
         'battleship/ui/Welcome'
     ],
 
     onReady: function() {
-        bj.ui.Welcome.load();
+        s.delay(function() {
+            Battleship.ui.Welcome.load();
+        }, 200);
     }
 });
