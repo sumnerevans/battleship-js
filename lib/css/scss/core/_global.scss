@@ -1,0 +1,9 @@
+// Set the height of the HTML and body elements so that they fill the entire window.
+html,
+body {
+  height: 100%;
+}
+// Hide elements with .hidden
+.hidden {
+  display: none;
+}

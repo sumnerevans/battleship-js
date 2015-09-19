@@ -1,0 +1,9 @@
+.column-contents {
+  display: table;
+  height: 100%;
+  width: 100%;
+
+  .child-container {
+    display: table-row;
+  }
+}
