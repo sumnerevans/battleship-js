@@ -481,13 +481,10 @@ body {
 
 /* line 1, scss/layout/_center.scss */
 .center-contents {
-  display: table;
   height: 100%;
   width: 100%;
 }
 /* line 6, scss/layout/_center.scss */
 .center-contents .child-container {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  margin: 0 auto;
 }
