@@ -1,3 +1,4 @@
+/* global Battleship */
 // Define the Battleship JS application
 s.app('Battleship', {
     files: [
@@ -8,6 +9,6 @@ s.app('Battleship', {
     onReady: function() {
         s.delay(function() {
             Battleship.ui.Welcome.load();
-        }, 200);
-    }
+        }, 600);
+    },
 });
