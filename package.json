@@ -4,7 +4,7 @@
   "description": "A Battleship game written in JavaScript with React and Node",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -vv",
+    "test": "mocha",
     "prestart": "webpack -p",
     "build": "webpack"
   },
