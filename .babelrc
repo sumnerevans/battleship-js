@@ -1,0 +1,5 @@
+// vim:ft=json
+{
+  "presets": ["env", "react"],
+  "plugins": ["transform-class-properties"]
+}
